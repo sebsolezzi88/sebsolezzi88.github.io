@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sebastían Solezzi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-gray-300 font-sans">
+    <header class="bg-gray-800 shadow-md">
+        <nav class="container mx-auto px-6 py-4 flex flex-col sm:flex-row justify-between items-center">
+            <h1 class="text-2xl font-bold text-white mb-2 sm:mb-0">Sebastián Solezzi</h1>
+            <div class="flex space-x-4">
+                <a href="#proyectos" class="text-gray-400 hover:text-sky-400">Proyectos</a>
+                <a href="#contacto" class="text-gray-400 hover:text-sky-400">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="bg-gray-800 py-20 text-center">
+        <div class="container mx-auto px-6">
+            <img src="img/perfilcomprez.jpg" alt="Foto de Perfil"
+                class="rounded-full mx-auto mb-4 w-32 h-32 object-cover border-4 border-gray-700 shadow-lg" />
+            <h2 class="text-4xl font-bold text-white mb-2">
+                ¡Hola, soy un desarrollador web!
+            </h2>
+            <p class="text-gray-400 text-lg max-w-2xl mx-auto">
+                Soy un desarrollador web <span class="text-sky-400">junior</span> con una fuerte pasión por el
+                código. Busco mi primera oportunidad profesional para aplicar mis
+                habilidades en la creación de soluciones modernas y responsivas. Aquí
+                puedes encontrar algunos de los proyectos que he creado para demostrar
+                mi trabajo.
+            </p>
+        </div>
+    </section>
+
+    <section id="habilidades" class="container mx-auto px-6 py-16 text-center">
+        <h3 class="text-3xl font-bold text-white mb-8">Mis Habilidades</h3>
+        <div id="habilidades-flex" class="flex flex-wrap justify-center gap-6 md:gap-8">
+           
+        </div>
+    </section>
+
+    <section id="proyectos" class="container mx-auto px-6 py-16">
+        <h3 class="text-3xl font-bold text-center text-white mb-10">
+            Mis Proyectos
+        </h3>
+        <div id="proyectos-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+        </div>
+    </section>
+
+    <section id="contacto" class="bg-gray-800 py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-3xl font-bold text-white mb-4">
+                ¿Interesado en mi trabajo?
+            </h3>
+            <p class="text-gray-400 text-lg mb-8">
+                Puedes contactarme a través de:
+            </p>
+            <div class="flex flex-col items-center justify-center gap-3 md:flex-row">
+                <a href="ssolezzi@gmail.com"
+                    class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-2 px-6 rounded-full transition-colors">Email</a>
+                <a href="https://www.linkedin.com/in/tu-perfil/" target="_blank"
+                    class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-2 px-6 rounded-full transition-colors">LinkedIn</a>
+                <a href="https://github.com/sebsolezzi88" target="_blank"
+                    class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-6 rounded-full transition-colors">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white text-center py-4">
+        <p class="text-sm">
+            &copy; <span class="year-footer"></span> Sebastían Solezzi. Todos los derechos reservados.
+        </p>
+    </footer>
+
+     <script src="app.js" type="module"></script> 
+</body>
+
+</html>
