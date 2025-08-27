@@ -27,7 +27,7 @@
 
 ## 📫 Contacto
 - ✉️ Email: ssolezzi@gmail.com
-- 💼 LinkedIn: [linkedin.com/in/tu-perfil](https://www.linkedin.com/in/sebastian-solezzi/)  
+- 💼 LinkedIn: [linkedin.com/in/sebastian-solezzi](https://www.linkedin.com/in/sebastian-solezzi/)  
 - 🐙 GitHub: [github.com/sebsolezzi88](https://github.com/sebsolezzi88)  
 
 ---
