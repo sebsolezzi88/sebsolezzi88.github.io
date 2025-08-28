@@ -24,6 +24,12 @@ const  projects = [
         link: "https://github.com/sebsolezzi88/Frontend-MiraMichisARG"
     },
     {
+        title:"Api Elementos Químicos",
+        description:"Pequeña Api para obtener información sobre los elementos de la tabla periódica.",
+        tags:['JavaScript','API','Ejs','Tailwind CSS'],
+        link: "https://github.com/sebsolezzi88/Express-Api-Elementos"
+    },
+    {
         title:"Cotizador Crypto",
         description:"Pequeña web app usando React que muestra los resultado de consultar una API.",
         tags:['React','API','JavaScript'],
