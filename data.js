@@ -7,7 +7,7 @@ const  projects = [
     },
     {
         title:"TodoApp",
-        description:"Proyecto fullstck en express, moongose, express-session y ejs como motor de plantillas.",
+        description:"Proyecto fullstack en express, moongose, express-session y ejs como motor de plantillas.",
         tags:['Node.js','Express','MongoDB','Ejs'],
         link: "https://github.com/sebsolezzi88/TodoApp-Mongo-Ejs-Auth"
     },
